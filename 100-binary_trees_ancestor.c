@@ -24,10 +24,6 @@ binary_tree_t *binary_trees_ancestor(const binary_tree_t *first,
 		return (binary_trees_ancestor(mom, second));
 	return (binary_trees_ancestor(mom, pop));
 }
-#include "binary_trees.h"
-
-size_t depth(const binary_tree_t *tree);
-
 /**
  * binary_trees_ancestor - Finds the lowest common ancestor of two nodes.
  * @first: Pointer to the first node.
